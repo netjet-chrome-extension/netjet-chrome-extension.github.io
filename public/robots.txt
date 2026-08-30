@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://netjet-chrome-extension.github.io/sitemap.xml

@@ -1,0 +1,32 @@
+---
+import { site } from '../data/site';
+---
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <a class="footer-brand" href="/">NetJet</a>
+      <p>NetJet helps developers capture browser activity as a starting point for repeatable scripts, while keeping review and refinement in the loop.</p>
+    </div>
+    <nav aria-label="Product links">
+      <strong>Explore</strong>
+      <a href="/product/">Product</a>
+      <a href="/trust/">Trust</a>
+      <a href="/about/">About</a>
+    </nav>
+    <nav aria-label="Account links">
+      <strong>Access</strong>
+      <a href={site.userUrl}>User login</a>
+      <a href={site.orgUrl}>Organization login</a>
+      <a href={site.authUrl}>Create account</a>
+    </nav>
+    <nav aria-label="Project links">
+      <strong>Project</strong>
+      <a href={site.githubUrl}>GitHub organization</a>
+      <a href={`https://github.com/netjet-chrome-extension/netjet-chrome-extension.github.io`}>Site source</a>
+    </nav>
+  </div>
+  <div class="footer-base">
+    <span>© 2026 NetJet</span>
+    <span>Built with Astro · Static by design</span>
+  </div>
+</footer>
